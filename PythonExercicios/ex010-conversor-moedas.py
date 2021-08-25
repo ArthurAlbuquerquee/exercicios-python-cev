@@ -1,0 +1,5 @@
+real = float(input('Converta reais para dólares: R$'))
+print('Esse valor em real convertido para:')
+print(f'US${real/5.23:.2f} dólares.')
+print(f'€{real/6.16:.2f} euros.')
+print(f'${real*18.51:.2f} pesos argentinos')
